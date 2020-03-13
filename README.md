@@ -11,6 +11,7 @@ A Pi calculator that give the user three calculation option so they can choose h
 
 ### Arrange The Digits (arrange_1to9.py)
 A script to help solve a logic problem:
+
 Arrange these digits 1 2 3 4 5 6 7 8 9 to form:
 * a three-digit multiple of three
 * a three-digit multiple of four
@@ -48,4 +49,5 @@ Have a game of rock, paper, scissors against the computer.
 
 ### Subtraction Sum (subtraction_sum.py)
 A script to help solve a logic problem:
+
 Write down a straightforward subtraction sum, A - B = C, where each of the numbers (A, B and C) are made up of nine digits, 1 - 9 inclusive, with each digit being used once only in each number.
