@@ -1,0 +1,63 @@
+There are two types of sequences that you will have to deal with:
+
+Constant Difference Sequences
+This is when the difference between terms is always the same.
+
+e.g. 1, 4, 7, 10, ... This has a difference which is always 3.
+
+How do you find the formula for the 'nth' term?
+
+Well, the three times table has the formula '3n' and the terms in this sequence are two less than the terms in the three times table so the formula is '3n - 2'.
+
+You can always find the 'nth term' by using this formula:
+
+nth term = dn + (a - d)
+
+Where d is the difference between the terms, a is the first term and n is the term number.
+
+e.g. 6, 11, 16, 21, ...For this sequence d = 5, a = 6
+
+So the formula is nth term = 5n + (6 - 5)
+
+which becomes nth term = 5n + 1
+
+Therefore the sequence of 4,15,26,37,48 =
+dn + (a -d)
+11n + (4 - 11)
+11n - 7
+
+
+
+Changing Difference Sequences
+What if the difference keeps changing?
+3, 5, 8, 12, 17
+
+Obviously these are more difficult but once again we can use a formula!
+
+nth term = a + (n - 1)d + ½(n - 1)(n - 2)c
+
+This time there is a letter c which stands for the second difference (or the difference between the differences and d is just the difference between the first two numbers.
+
+Putting the right numbers into the formula is reasonably simple (once you've learnt the formula!). Simplifying it requires good Algebra skills so practice your Algebra!
+
+Here's an example:
+2   3   6    11   18
+  1   3    5     7
+     2    2    2
+
+Here the difference between the first two numbers is 1 so d = 1
+
+Also the second differences are 2 so c = 2 The first term is 2 so a = 2
+
+Using the formula, nth term = 2 + (n - 1)x1 + ½(n - 1)(n - 2)x2
+
+Getting rid of brackets (and noticing that ½ x 2 = 1):
+
+nth term = 2 + n - 1 + n2 - 3n + 2
+
+
+Simplifying,
+
+nth term = n2 - 2n + 3
+
+nth term = (c/2)n2 + dn - (c3/2)n + a + c - d
