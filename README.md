@@ -18,7 +18,8 @@ Arrange these digits 1 2 3 4 5 6 7 8 9 to form:
 * a three-digit multiple of five
 
 
-
+### Dictionary of Squares (dict_squares.py)
+With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
 
 ### Guess The Number (guess_the_number.py)
 A simple guess the number game. You tell the script the maximum number and it chooses a number within the range zero to the maximum you entered. Then you enter a number and the script tells you if you are too high or too low.
