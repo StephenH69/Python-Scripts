@@ -1,16 +1,26 @@
 # Python Scripts
 Various scripts I have created for online courses, fun and puzzle solving.
 
-###Basic Site Scraper
+----------
+
+##Basic Site Scraper
 Following on from a Udemy course outlining the basics of website scraping I added in extra features such as file checking and path checking. The original version forced the hard coding of the full file paths, my version enables it to be added to any file structure easily as the paths and files are checked first and created if not available.
 
 The course version separated the analytic code from the scraping code, but I wanted a combined system without the need to manually run separate files. After combining them I also added in the export of the main articles list to be exported as a csv file (the original offered json only).
 
-### Pi Calculator
+----------
+
+## Pi Calculator
 A Pi calculator that give the user three calculation option so they can choose how to calculate pi. They can then choose how many decimal places they want and how many iterations they want the calculation to perform.
 
+----------
 
+## Programmable Web Scraping
+Following on from the Udemy course about web scraping, this is a full scraping tool which will collect the basic descriptions of APIs from programmableweb.com.
 
+The next stage of the programme is to create a spider effect which visits the full page and collects the full decription rather than a part description.
+
+----------
 
 ### Arrange The Digits (arrange_1to9.py)
 A script to help solve a logic problem which was found in a puzzle book
