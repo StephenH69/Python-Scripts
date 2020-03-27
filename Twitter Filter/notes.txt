@@ -1,0 +1,15 @@
+Install redis
+> sudo apt-get update
+> sudo apt-get upgrade
+> sudo apt-get install redis-server
+> redis-cli -v
+
+> sudo service redis-server restart
+
+$ redis-cli 
+127.0.0.1:6379> set user:1 "Jane"
+127.0.0.1:6379> get user:1
+"Jane"
+
+To stop your Redis server:
+> sudo service redis-server stop
