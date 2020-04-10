@@ -3,7 +3,7 @@ Various scripts I have created for online courses, fun and puzzle solving.
 
 ----------
 
-##Basic Site Scraper
+## Basic Site Scraper
 Following on from a Udemy course outlining the basics of website scraping I added in extra features such as file checking and path checking. The original version forced the hard coding of the full file paths, my version enables it to be added to any file structure easily as the paths and files are checked first and created if not available.
 
 The course version separated the analytic code from the scraping code, but I wanted a combined system without the need to manually run separate files. After combining them I also added in the export of the main articles list to be exported as a csv file (the original offered json only).
